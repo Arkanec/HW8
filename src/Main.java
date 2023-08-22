@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
-        int [] i = new int[12];
+        int [] i = new int[3];
         i[0] = 1;
         int price = i[0];
         System.out.println(i[0]);
@@ -30,7 +30,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Задача 2");
-        int [] c = new int[12];
+        int [] c = new int[3];
         c[0] = 1;
         price = c[0];
         System.out.print(c[0]);
@@ -56,7 +56,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Задача 3");
-        int [] x = new int[12];
+        int [] x = new int[3];
         x[2] = 3;
         price = x[2];
         System.out.print(x[2]);
