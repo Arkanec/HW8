@@ -57,17 +57,12 @@ public class Main {
 
         System.out.println("Задача 3");
         int [] x = new int[3];
-        x[2] = 3;
-        price = x[2];
-        System.out.print(x[2]);
-        System.out.print(",");
+        x[0] = 3;
         x[1] = 2;
-        price = x[1];
-        System.out.print(x[1]);
-        System.out.print(",");
-        x[0] = 1;
-        price = x[0];
-        System.out.print(x[0]);
+        x[2] = 1;
+        for (int q = 0; q < x.length; q++) {
+            System.out.print(x[q]);
+        }
 
         System.out.println();
 
